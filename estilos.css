@@ -92,6 +92,13 @@ body
 	height: 800px;
 	background-color: #003366;
 	margin: auto;
+	overflow: auto;
+	padding: 10px;
+}
+
+#margen {
+	width: 1300px;
+	height: 700px;
 }
 
 .logo 
@@ -149,7 +156,44 @@ body
 	float: left;
 }
 
+.silla_boton_izq {
+	width: 70px;
+	height: 70px;
+	
+	background-color: transparent;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: left;
+	color: white;
+	font-family: Arial;
+	font-weight: bolder;
+	margin-left: 10px;
+	background-color: #81D498;
+	border: none;
 
+}
+
+.silla_boton_der {
+	width: 70px;
+	height: 70px;
+	border: none;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: right;
+	color: white;
+	font-family: Arial;
+	font-weight: bolder;
+	margin-right: 310px;
+	margin-top: -684px;
+	background-color: #AF4949;
+
+}
+
+.silla {
+	width: 70px;
+	height: 70px;
+}
 
 
 h2 {
